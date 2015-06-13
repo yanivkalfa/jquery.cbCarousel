@@ -1,0 +1,62 @@
+.galleryContainer{
+    display:block;
+    position:relative;
+    width:0px;
+    float:left;
+    overflow:hidden;
+    padding:0px 3px;
+}
+.galleryContainer .gallery-thumbnails{
+    display:block;
+    position:relative;
+    float:left;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    width:5000px;
+}
+.galleryContainer .gallery-thumbnails .item{
+    display:block;
+    position:relative;
+    float:left;
+    padding:10px 5px;
+    margin:0px;
+}
+.galleryContainer .gallery-thumbnails .item a{
+    display:block;
+    border:1px #FFF solid;
+}
+.galleryContainer .gallery-thumbnails .item.active a{
+    border:1px #000 solid;
+}
+
+.galleryContainer .gallery-thumbnails .item img{
+    margin:0px;
+    padding:0px;
+    display:block;
+    border: 1px #aaa solid;
+    border-radius: 3px;
+}
+
+.galleryContainer .nav-back{
+    display:block;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background-image:url('images/arrow-left.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:30px;
+    height:100%;
+}
+.galleryContainer .nav-fwd{
+    display:block;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    background-image:url('images/arrow-right.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:30px;
+    height:100%;
+}
