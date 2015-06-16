@@ -2,9 +2,8 @@
     display:block;
     position:relative;
     width:0px;
-    float:left;
     overflow:hidden;
-    padding:0px 3px;
+    margin:auto;
 }
 .galleryContainer .gallery-thumbnails{
     display:block;
