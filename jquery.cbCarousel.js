@@ -18,7 +18,7 @@
         }
         // defaults
         var defaultOptions = {
-            visibleItems : 6,
+            visibleItems : 10,
             navs :{
                 'back'	: '.nav-back',
                 'fwd'	: '.nav-fwd'
@@ -28,7 +28,7 @@
             opacityOn	: 1,
             opacityOver : .8,
             animateNavs : true,
-            threshold	: 0,
+            threshold	: -15,
 
             // callbacks
             init 		: function(){},
